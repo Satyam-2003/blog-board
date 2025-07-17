@@ -42,3 +42,22 @@
 .animate-fade-in {
   animation: fadeIn 0.5s ease-out;
 }
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.4s ease-out;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
