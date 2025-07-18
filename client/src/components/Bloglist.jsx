@@ -40,7 +40,15 @@ const Bloglist = () => {
         <span className="font-semibold text-pink-600">{selectedCategory}</span>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 mb-24 mx-8 sm:mx-16 xl:mx-40">
-        {blog_data.filter((blog) => selectedCategory === "All" ? true : blog.category === selectedCategory).map((blog)=> <Blogcard key={blog._id} blog={blog}/>)}
+        {blog_data
+          .filter((blog) =>
+            selectedCategory === "All"
+              ? true
+              : blog.category === selectedCategory
+          )
+          .map((blog) => (
+            <Blogcard key={blog._id} blog={blog} />
+          ))}
       </div>
     </div>
   );

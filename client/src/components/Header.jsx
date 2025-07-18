@@ -33,7 +33,6 @@ const Header = () => {
             🔍 Search
           </button>
         </form>
-         
       </div>
       <img
         src={assets.gradientBackground}
