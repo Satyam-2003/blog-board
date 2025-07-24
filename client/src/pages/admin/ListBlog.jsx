@@ -14,8 +14,8 @@ const ListBlog = () => {
   return (
     <div className="flex-1 pt-5 px-5 sm:pt-12 sm:pl-16 bg-blue-50/50">
       <h1 className="text-2xl sm:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500 tracking-tight mb-6 animate-fade-in">
-  All Blogs 📚
-</h1>
+        All Blogs 📚
+      </h1>
       <div className="mt-6 overflow-x-auto rounded-xl shadow-md bg-white/80 backdrop-blur-md">
         <table className="min-w-full divide-y divide-purple-100 text-sm text-left">
           <thead className="bg-gradient-to-r from-purple-100 via-pink-100 to-indigo-100 text-gray-700 uppercase tracking-wide text-xs">
